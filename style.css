@@ -655,11 +655,11 @@ width: 100%;
  }
 .Inputs{
     padding: 10px 4px;
-    border-radius: 28px;
+    border-radius: 1000px;
     width: 40%;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 10px #9d9d9d;
+    box-shadow: 0px 0px 2px #9d9d9d;
 }
 .Inputs input[type=text] {
     border: none;
@@ -673,7 +673,7 @@ width: 100%;
     background-color: #ff1f1b;
     color: whitesmoke;
     border: none;
-    border-radius: 30px;
+    border-radius: 1000px;
     padding: 18px 1px;
     width: 25%;
     font-size: 10px;
@@ -689,7 +689,7 @@ width: 100%;
 
 
 
-
+/* FOOTER START HERE */
 
 .footerheader {
     padding: 118px 50px 16px 50px;
@@ -724,7 +724,8 @@ width: 100%;
 }
 .social {
     width: 25%;
-    text-align: right;
+    text-align: left;
+    padding-left: 75px;
 }
 .social a{
     margin-right: 15px;
@@ -737,3 +738,5 @@ width: 100%;
     margin-left: 510px;
     margin-bottom: 10px;
 }
+
+/* FOOTER ENDS HERE */
