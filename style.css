@@ -1,0 +1,739 @@
+
+
+*{margin: 0;padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+.fl{float:left;}
+.fr{float: right;}
+.fix{overflow: hidden;}
+h1{ font-size: 40px;color: #035755;font-family: 'Red Hat Display', sans-serif;}
+h2{font-family: 'Red Hat Display', sans-serif; }
+h3{color: #035755;font-family: 'Red Hat Display', sans-serif; }
+h4{color: #FA5652;font-family: 'Red Hat Display', sans-serif;font-size: 14px;font-weight:800; }
+p{ font-size: 16px; color:black;font-family: 'Questrial', sans-serif; opacity: 0.6;}
+h2{font-size: 30px;color: #035755;font-family: 'Red Hat Display', sans-serif;}
+ul li{list-style: none;display: inline-block;}
+ul li a{text-decoration: none ; font-size: 16px;color: #035755;font-family: 'Questrial', sans-serif; }
+a{text-decoration: none;font-size: 18px;}
+
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    min-width: 960px;
+ }
+.container {
+    width: 98%;
+    margin: 0 auto;
+    background-color: #fffbfb;
+}
+.structure {
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+
+/* HEADER START HERE */
+
+.logoIMg {
+    width: 20%;
+    padding-left: 80px;
+}
+.navMenu {
+    width: 62%;
+
+}
+.navMenu ul { 
+    text-align: right;
+}
+.navMenu ul li {
+    padding: 25px 35px 1px 1px;
+}
+.navMenu ul li a:hover {
+color: red;}
+.contactBtn {
+    width: 18%;
+    padding: 25px 0px 0px 0px;
+}
+.contactBtn a {
+        border-radius: 60px;
+        border: 2px solid #FF383D;
+        padding: 6px 17px 7px 17px;
+        color: #FF383D;
+        /* box-shadow: 0px 0px 5px #9d9d9d; */
+}
+.contactBtn a:hover {
+    /* box-shadow: inset 0px 0px 5px #9d9d9d; */
+    box-shadow: 0px 0px 10px red;
+}
+
+/* HEADER ENDS HERE */
+
+
+/* NAVBODY START HERE */
+
+.navbody{
+    position: relative;
+    z-index: 1;
+    padding: 100px 0px;
+}
+.navbody::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 105%;
+    width: 55%;
+    top: 20px;
+    right: 0px;
+    background-image: url(images/navbody.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbodytext {
+    padding: 100px 0px 0px 80px;
+}
+.navbodyHfour {
+    margin-bottom: 10px;
+}
+.navbodyHone {
+    width: 45%;
+    margin-bottom: 20px;
+}
+.navbodyPone {
+    width: 43%;
+    margin-bottom: 30px;
+}
+.navbodyPone p{
+  font-weight: 600;
+  line-height: 22px;
+}
+.navbodybtn a{
+    padding: 10px 25px;
+    background-color: #FB4C47;
+    box-shadow: 0px 0px 5px #9d9d9d;
+    border-radius: 41px;
+    font-size: 16px;
+    color: white;
+}
+.navbodybtn a:hover{
+   color: #035755 ;
+   box-shadow: 0px 0px 10px red;
+   /* background-color: white; */
+   transition: all .2s ease;
+}
+
+/* NAVBODY ENDS HERE */
+
+
+
+
+/* WHAT IS COVID START */
+
+.whatiscovid{
+    padding: 100px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.whatiscovid::before{
+    position: absolute;
+    z-index: -1;
+    content: '';
+    background-image: url(images/whatiscovid1.png);
+    height: 100%;
+    width: 38%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.whatiscovidtext{
+    position: relative;
+    z-index: 1;
+}
+.whatiscovidtext::before{
+    position: absolute;
+    z-index: -1;
+    content: '';
+    background-image: url(images/whatiscovid2.png);
+    height: 215%;
+    width: 15%;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textall{
+    padding-left: 550px;
+    position: relative;
+    z-index: 1;
+    margin-top: 100px;
+}
+
+.textall::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/whatiscovid3.png);
+    height: 80%;
+    width: 12%;
+    right: 90px;
+    top: 300px;
+}
+
+.whatiscovidh4 {
+    margin-bottom: 10px;
+}
+.whatiscovidh1 {
+    margin-bottom: 5px;
+}
+.whatiscovidp {
+    margin-bottom: 22px;
+}
+.whatiscovidp p{
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.whatiscovidbtn a{
+    padding: 10px 30px;
+    background-color: #fddfde;
+    box-shadow: 0px 0px 5px #9d9d9d;
+    border-radius: 41px;
+    font-size: 16px;
+    color: #FA5652;
+}
+.whatiscovidbtn a:hover{
+   color: whitesmoke;
+   box-shadow: 0px 0px 7px #9d9d9d;
+   background-color:  #FA5652;
+   transition: all .2s ease;
+}
+
+/* WHAT IS COVID ENDS HERE  */
+
+
+
+/* CONTAGION START HERE */
+
+.contaigonSection{
+    padding: 200px 0px 20px 0px;
+    position:relative;
+    z-index: 1;
+}
+.contaigonSection::before{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    height:20%;
+    width: 7%;
+    top: 570px;
+    left: 140px;
+    background-image: url(images/contaigonAreaBgCoronaImh.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.allText {
+    text-align: center;
+}
+.contaigonH4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contaigonH1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contaigonp {
+    margin-bottom: 22px;
+    width: 50%;
+    margin:0 auto;
+}
+.contaigonp p{
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+
+
+
+
+.ContagionCarts {
+    padding :50px 0px 50px 200px;
+    
+}
+.card {
+    margin-right: 40px;
+    width: 25%;
+    border-radius: 3px;
+    padding: 30px 0px;
+    box-shadow:0px 0px 10px #9d9d9d;
+    position: relative;
+    z-index: 2;
+}
+.card:hover{
+    transform: translatey(-10px);
+    transition: all 250ms ease-in;
+    box-shadow:0px 5px 10px #9d9d9d;
+}
+.card::before{
+    content: '';
+    position: absolute;
+    z-index: -2;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1s ease-in;
+}
+.card:hover:before{
+    height: 1.5%;
+    width: 100%;
+    top: 99%;
+    right: 0px;
+    background-color: #FB4C47;
+    border-radius: 6px;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.cartImg {
+
+    margin: 0 auto;
+}
+.cartImg img{
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cartText h4{
+    margin-top: 15px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #257776;
+    font-size: 18px;
+}
+.cartText p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+
+/* CONTAGION ENDS HERE */
+
+
+
+
+
+
+/* SYMPTOPMS START HERE */
+
+.symptopms{
+    position: relative;
+    z-index: 1;
+    padding: 50px 0px 50px 0px;
+}
+.symptopms::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 14%;
+    width: 13.5%;
+    left: 30px;
+    bottom: 170px;
+    background-image: url(images/symtpmsRightBg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.symptomSection{
+    position: relative;
+    z-index: 1;
+}
+.symptomSection::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 14%;
+    width: 10%;
+    right: 42px;
+    bottom: -74px;
+    background-image: url(images/symtpmsRightBg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.symptopmsheadText {
+    text-align: center;
+}
+.symptopmsheadText {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.symptopmshaedh1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.symptopmshaedp {
+    margin-bottom: 22px;
+    width: 50%;
+    margin:0 auto;
+}
+.symptopmshaedp p{
+  font-weight: 600;
+  line-height: 20px;
+}
+.mainimg{
+    text-align: center;
+}
+.mainimg img{
+    width: 60%;
+}
+
+
+/* SYMPTOPMS ENDS HERE */
+
+
+
+
+
+/* WHAT SHOULD WE DO START HERE */
+
+.WhatShouldWeDohead {
+    margin-top: 50px;
+    text-align: center;
+}
+.WhatShouldWeDoH4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.WhatShouldWeDoH1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.WhatShouldWeDop {
+    margin-bottom: 22px;
+    width: 50%;
+    margin:0 auto;
+}
+.WhatShouldWeDop p{
+  font-weight: 600;
+  line-height: 20px;
+}
+
+
+
+.firstback{
+    position: relative;
+    z-index: 1;
+}
+.firstback::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 54%;
+    width: 10%;
+    top: 400px;
+    left: 0px;
+    background-image: url(images/whatShouldWeDoCoronaBgImg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secondback{
+    position: relative;
+     z-index: 1;
+ }
+ .secondback::before{
+     content: '';
+     position: absolute;
+     z-index: -1;
+     height: 20%;
+     width: 8%;
+     top: 580px;
+     right: 30px;
+     background-image: url(images/whatShouldWeDoCoronaBgImg2.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .thirdback{
+    position: relative;
+    z-index: 1;
+}
+.thirdback::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 40%;
+    width: 8%;
+    top: 220px;
+    right: 0px;
+    background-image: url(images/whatShouldWeDoCoronaBgImg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.carttext{
+    position: relative;
+    padding: 20px 20px;
+    width: 45%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+.whatShouldWeDOh4 h4{
+    position: absolute;
+    top: 15px;
+    left: -50px;
+    border-radius: 50%;
+    background-color: #ffc4c3;
+    color: #FA5652;
+    padding: 15px;
+    font-size: 18px;
+}
+.whatShouldWeDOh1 {
+    margin-bottom: 10px;
+}
+.whatShouldWeDOh1 h1{
+    color: #035755;
+}
+.whatShouldWeDOp {
+    line-height: 25px;
+}
+.whatSouldWeDoImg{
+   margin-top: 10%;
+   width: 40%;
+   padding-left: 20px;
+}
+.MAinImg img {
+    width: 70%;
+}
+
+
+
+
+
+.carttext2{
+    position: relative;
+    padding: 20px 20px;
+    width: 45%;
+    margin-top: 15%;
+    margin-right: 10%;
+}
+.whatShouldWeDOh42 h4{
+    position: absolute;
+    top: 15px;
+    left: -50px;
+    border-radius: 50%;
+    background-color: #ffc4c3;
+    color: #FA5652;
+    padding: 15px;
+    font-size: 18px;
+}
+.whatShouldWeDOh12 {
+    margin-bottom: 10px;
+}
+.whatShouldWeDOh12 h1{
+    color: #035755;
+}
+.whatShouldWeDOp2 {
+    line-height: 25px;
+}
+
+.whatSouldWeDoImg2{
+    margin-top: 10%;
+    width: 40%;
+    padding-left: 120px;
+ }
+ .MAinImg2 img {
+     width: 90%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LIVE REPORT START HERE */
+
+ .liveReportSection{
+    padding: 30px 0px 30px 0px;
+}
+.liveReportimg{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.liveReportimg::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 70%;
+    width: 70%;
+    top: 100px;
+    left: 53px;
+    background-image: url(images/LiveReportsMapBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.liveReportmainimg{
+    width: 90%;
+    margin: 0 auto;
+}
+.liveReportmainimg img{
+width: 100%;
+}
+
+
+/* LIVE REPORT ENDS HERE */
+
+
+
+
+/* QUESTION START HERE */
+
+.Question{
+    position: relative;
+    z-index: 1; 
+}
+.Question::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 46%;
+    width: 8%;
+    right: 130px;
+    top: 15px;
+    background-image: url(images/footerCoronaBgImg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.QuestionSection{
+    position: relative;
+    z-index: 1;
+}
+.QuestionSection::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 108%;
+    width: 10%;
+    right: 0px;
+    top: 125px;
+    background-image: url(images/footerCoronaBgImg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.questionhead{
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 35px;
+}
+.questionhead h1{
+    color: #0C6C44;
+    font-weight: 700;
+}
+.inputSection{
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+ }
+.Inputs{
+    padding: 10px 4px;
+    border-radius: 28px;
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px #9d9d9d;
+}
+.Inputs input[type=text] {
+    border: none;
+    border-radius: 26px;
+    font-size: 9px;
+    padding: 17px 11px;
+    width: 70%;
+    background-color: white;
+}
+.Inputs input[type=submit] {
+    background-color: #ff1f1b;
+    color: whitesmoke;
+    border: none;
+    border-radius: 30px;
+    padding: 18px 1px;
+    width: 25%;
+    font-size: 10px;
+}.Inputs input[type=submit]:hover{
+    color:white; ;
+    box-shadow: 0px 0px 10px red;
+    transition: all .3s ease;
+}
+
+
+/* QUESTION ENDS HERE */
+
+
+
+
+
+
+.footerheader {
+    padding: 118px 50px 16px 50px;
+}
+
+.footerlogo{
+    width: 30%;
+}
+
+.footerLogomainImg {
+    width: 100%;
+}
+.footerLogomainImg img{
+    width: 150px;
+}
+
+.footerMenu {
+    width: 45%;
+}
+.footerMenu ul{
+    margin-left: 25px;
+}
+.footerMenu ul li{
+    padding: 7px 1px 5px 7px;
+}
+.footerMenu ul li a{
+    margin: 0px 5px 0px 5px;
+    font-weight: 600;
+}
+.footerMenu ul li a:hover{
+    color: #FA5652;
+}
+.social {
+    width: 25%;
+    text-align: right;
+}
+.social a{
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.social a:hover{
+    filter: invert();
+}
+.copyright {
+    margin-left: 510px;
+    margin-bottom: 10px;
+}
